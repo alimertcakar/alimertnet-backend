@@ -4,7 +4,6 @@
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
     "outDir": "build",
-    "experimentalDecorators": true,
     "rootDir": "./",
     "sourceMap": true,
     "paths": {

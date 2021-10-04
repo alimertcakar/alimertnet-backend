@@ -12,7 +12,7 @@
     "Database": "database",
     "Contracts": "contracts"
   },
-  "preloads": ["./start/routes", "./start/kernel", "lucid-mongo/providers/LucidMongoProvider"],
+  "preloads": ["./start/routes", "./start/kernel"],
   "providers": ["./providers/AppProvider", "@adonisjs/core"],
-  "aceProviders": ["@adonisjs/repl", "lucid-mongo/providers/MigrationsProvider"]
+  "aceProviders": ["@adonisjs/repl"]
 }
